@@ -1,0 +1,6 @@
+---
+title: "P8105 Homework 2"
+author: "Jasmine Niu (jn2855)"
+output: github_document
+---
+

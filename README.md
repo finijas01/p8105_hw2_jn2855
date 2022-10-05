@@ -1,1 +1,1 @@
-# p8105_hw2_jn2855
+This is a repo for Homework 2.
