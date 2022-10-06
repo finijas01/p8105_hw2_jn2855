@@ -71,3 +71,24 @@ trans_ent %>%
 ```
 
 
+## Problem 2
+
+```{r}
+mr_trash_df = read_excel(
+  "data/Trash Wheel Collection Data.xlsx",
+  sheet = "Mr. Trash Wheel",
+  range = "A2:N549"
+    ) %>% 
+  janitor::clean_names()
+```
+
+```{r}
+pr_trash_df = read_excel(
+  "data/Trash Wheel Collection Data.xlsx",
+  sheet = "Professor Trash Wheel",
+  range = "A2:M96"
+    ) %>% 
+  janitor::clean_names()
+```
+
+
